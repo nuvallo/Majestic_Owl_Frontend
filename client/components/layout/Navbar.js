@@ -17,6 +17,8 @@ import logo from "../../images/icons/logoicon.png";
 // icons
 const social_icons = [discord_icon, instagram_icon, twitter_icon];
 
+const isMobile = false;
+
 function Appbar({ links }) {
   // Handlers
   const handleScroll = (link) => {
