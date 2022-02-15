@@ -1,0 +1,67 @@
+/* 
+ --------------------------------------------------------
+  invite section styles 
+ --------------------------------------------------------
+ */
+
+.invite {
+  background: url("../../images/banners/bannerinvite.png") no-repeat fixed
+    center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.invite .card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.invite_card {
+  display: flex;
+  flex-direction: row;
+  background-color: #100e0c;
+  color: #fff;
+  padding: 50px;
+  border-radius: 50px;
+  opacity: 0.9;
+  font-family: "Roboto", sans-serif;
+}
+
+.invite_card .card_title {
+  font-size: 30px;
+}
+
+.invite_card .card_text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.invite_card .card_body {
+  align-self: center;
+  max-width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  /* 
+ --------------------------------------------------------
+  invite section styles 
+ --------------------------------------------------------
+ */
+
+  .invite {
+    background: url("../../images/banners/bannerinvite.png") center;
+    background-size: cover;
+  }
+  .invite_card {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .invite_card .card_body {
+    order: 1;
+    max-width: 100%;
+  }
+}

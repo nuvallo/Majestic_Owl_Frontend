@@ -1,0 +1,14 @@
+/* 
+ --------------------------------------------------------
+  experience section styles 
+ --------------------------------------------------------
+ */
+
+.experience {
+  background: url("../../images/banners/bannerexp.png") no-repeat center;
+  background-size: cover;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}

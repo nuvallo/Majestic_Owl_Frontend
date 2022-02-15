@@ -1,0 +1,95 @@
+.main_timeline {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+
+.main_timeline:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100%;
+  background: #222;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.main_timeline .timeline {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.main_timeline .timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.main_timeline .icon {
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.main_timeline .icon:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #855b1f;
+}
+
+.main_timeline .image_content {
+  width: 50%;
+  height: 125px;
+  float: left;
+  margin: 10% 0px 10% 0px;
+  position: relative;
+}
+
+.main_timeline .timeline_content {
+  width: 40%;
+  padding: 11% 0 20px 0;
+  float: right;
+  color: white;
+}
+
+.main_timeline .title {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+.main_timeline .phase {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 15px 0;
+}
+
+.main_timeline .timeline:nth-child(2n) .image_content {
+  float: right;
+}
+
+.main_timeline .timeline:nth-child(2n) .image_content:before {
+  padding: 11% 0 0 0;
+}
+
+.main_timeline .timeline:nth-child(2n) .timeline_content {
+  width: 40%;
+  padding: 10% 5% 0px 0px;
+  float: right;
+  color: white;
+}

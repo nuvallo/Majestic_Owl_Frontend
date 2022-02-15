@@ -1,0 +1,39 @@
+/* 
+ --------------------------------------------------------
+  faq section styles 
+ --------------------------------------------------------
+ */
+.faq {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq .card {
+  background: linear-gradient(
+    145deg,
+    rgb(0 0 0 / 27%),
+    rgb(26 26 26) 14%,
+    rgb(0 0 0 / 21%)
+  );
+  box-shadow: 0 0 10px 0 #a594522b;
+  border: 2px solid #855b1f;
+  border-radius: 20px;
+  color: #fff;
+  min-width: 70%;
+  max-width: 50%;
+  margin: 15px;
+}
+
+.faq .card_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.faq .card_body {
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+/* 
+ --------------------------------------------------------
+  showcase section styles 
+ --------------------------------------------------------
+ */
+/* Desktop View */
+.showcase {
+  background: url("../../images/banners/1ban.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .showcase {
+    background: url("../../images/banners/1ban.png") center;
+    background-size: cover;
+  }
+}

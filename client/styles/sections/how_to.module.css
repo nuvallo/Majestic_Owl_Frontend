@@ -1,0 +1,36 @@
+.card_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how_to_card {
+  text-align: center;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 25%;
+  color: white;
+  background: linear-gradient(
+    145deg,
+    rgb(0 0 0 / 27%),
+    rgb(26 26 26) 14%,
+    rgb(0 0 0 / 21%)
+  );
+  box-shadow: 0 0 10px 0 #a594522b;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+.how_to_card .card_image {
+  margin-top: 20px;
+}
+
+.how_to_card .card_title {
+  font-size: 18px;
+}
+
+.how_to_card .card_text {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}

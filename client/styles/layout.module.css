@@ -1,0 +1,89 @@
+/* 
+ --------------------------------------------------------
+ Desktop view 
+ --------------------------------------------------------
+*/
+
+/* 
+  navbar styles 
+ */
+.appbar {
+  background-color: #100e0c !important;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 0 0 10px #855b1f;
+}
+
+.social_icons {
+  margin: 1%;
+}
+
+.logo {
+  padding: 5px !important ;
+}
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+/* dividers */
+.divider {
+  display: flex;
+  justify-content: center;
+}
+
+.divider_image {
+  width: 20%;
+  background-color: #fff;
+}
+
+/* Cards */
+.primary_card {
+  text-align: center;
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 25%;
+  color: white;
+  background-color: #100e0c;
+  border-radius: 30px;
+  opacity: 0.9;
+}
+
+/* 
+  footer styles 
+ */
+
+.footer {
+  background: #030303;
+  width: 100%;
+  text-align: center;
+  border-top: 5px solid #855b1f;
+}
+
+.footer p {
+  color: #fff;
+  padding: 20px 0 20px 0;
+}
+
+/* 
+ --------------------------------------------------------
+  mobile view 
+ --------------------------------------------------------
+ */
+@media screen and (max-width: 900px) {
+  /* 
+  navbar styles 
+ */
+  .link {
+    text-decoration: none;
+    font-size: 12px;
+    display: none;
+  }
+}

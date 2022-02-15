@@ -1,0 +1,22 @@
+.card_container {
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: #fff;
+  max-width: 60%;
+  height: 100%;
+  padding: 8%;
+}
+
+.content h1 {
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+
+.content p {
+  font-size: 18px;
+}

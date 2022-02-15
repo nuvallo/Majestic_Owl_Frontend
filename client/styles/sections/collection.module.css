@@ -1,0 +1,30 @@
+/* 
+ --------------------------------------------------------
+  collection section styles 
+ --------------------------------------------------------
+ */
+
+.collection {
+  background: url("../../images/banners/ssss.png") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .collection {
+    background: url("../../images/banners/ssss.png") center;
+    height: 100%;
+  }
+
+  .collection .card_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .collection_card {
+    margin: 15px;
+    width: 80%;
+  }
+}
